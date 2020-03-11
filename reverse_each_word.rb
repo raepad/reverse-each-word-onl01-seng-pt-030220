@@ -7,7 +7,7 @@ def reverse_each_word(hello_there)
   array = hello_there.split
   new_string = ""
   array.collect do |hello|
-    new_string << "#{hello.reverse} "
+    new_string << hello.reverse
   end
-  new_string.rstrip
+  new_string
 end
