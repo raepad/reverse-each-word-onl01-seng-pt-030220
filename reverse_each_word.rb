@@ -8,5 +8,4 @@ def reverse_each_word(hello_there)
   array.collect do |hello|
     hello.reverse
   end
-  new_string
 end
