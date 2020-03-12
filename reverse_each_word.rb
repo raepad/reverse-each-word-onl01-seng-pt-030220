@@ -4,7 +4,7 @@
 #end
 
 def reverse_each_word(hello_there)
-  hello_there.collect.split(",") do |hello|
-    hello.reverse
+  hello_there.collect.split do |hello|
+    hello.reverse.join(" ")
   end
 end
