@@ -4,8 +4,8 @@
 #end
 
 def reverse_each_word(hello_there)
-  array = hello_there.split(",")
-  array.collect do |hello|
+  hello_there.split(",")
+  hello_there.collect do |hello|
     hello.reverse
   end
 end
